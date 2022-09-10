@@ -1,7 +1,8 @@
 import React from 'react'
+import Box from '@mui/material/Box'
 
 export default function Rightbar() {
   return (
-    <div>Rightbar</div>
+    <Box p={2} flex={2} bgcolor="red">Rightbar</Box>
   )
 }
