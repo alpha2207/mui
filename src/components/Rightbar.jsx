@@ -11,7 +11,7 @@ export default function Rightbar() {
   return (
     <Box p={4} flex={2} sx={{ display: { xs: 'none', sm: 'block' } }}>
       <Box sx={{ position: 'fixed' }}>
-        <Typography variant='h6' fontWeight={100} color='#4d4d4d'>
+        <Typography variant='h6' fontWeight={100}>
           Online Friends
         </Typography>
         <AvatarGroup total={24} sx={{ display: "flex", justifyContent: 'center', margin: '1rem 0' }}>
@@ -21,7 +21,7 @@ export default function Rightbar() {
           <Avatar alt="Trevor Henderson" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" />
         </AvatarGroup>
 
-        <Typography variant='h6' fontWeight={100} color='#4d4d4d'>
+        <Typography variant='h6' fontWeight={100}>
           Recent Photos
         </Typography>
 
@@ -53,7 +53,7 @@ export default function Rightbar() {
         </ImageList>
 
 
-        <Typography variant='h6' fontWeight={100} color='#4d4d4d'>
+        <Typography variant='h6' fontWeight={100}>
           Recent Conversations
         </Typography>
 
