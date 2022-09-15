@@ -1,11 +1,12 @@
 import React from 'react'
 import Box from '@mui/material/Box'
-import { List, ListItemButton, ListItemIcon, ListItemText } from '@mui/material'
-import { Home } from '@mui/icons-material'
+import { List, ListItemButton, ListItemIcon, ListItemText, Switch } from '@mui/material'
+import { Home, Nightlight } from '@mui/icons-material'
 import AssignmentIcon from '@mui/icons-material/Assignment';
 import GroupIcon from '@mui/icons-material/Group';
 
-export default function Sidebar() {
+export default function Sidebar({ mode, setMode }) {
+  console.log(mode , setMode);
   return (
     <Box p={2} flex={1} sx={{ display: { xs: 'none', sm: 'block' } }}>
       <Box sx={{ position: 'fixed' }}>
@@ -61,9 +62,9 @@ export default function Sidebar() {
 
           <ListItemButton component='a' href='#home'>
             <ListItemIcon>
-              <Home />
+              <Nightlight />
             </ListItemIcon>
-            <ListItemText primary="Homepage" />
+            <Switch onClick={()=>setMode(mode === "light" ? "dark" : "light")} />
           </ListItemButton>
 
         </List>

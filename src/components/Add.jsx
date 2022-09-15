@@ -13,9 +13,7 @@ const style = {
     bgcolor: 'background.paper',
     borderRadius: '1rem',
     boxShadow: 24,
-    padding: '2rem 1rem',
-    background: 'white',
-    color: 'black'
+    padding: '2rem 1rem'
 };
 
 
@@ -41,8 +39,9 @@ export default function Add() {
                 onClose={() => setOpen(false)}
                 aria-labelledby="modal-modal-title"
                 aria-describedby="modal-modal-description"
+
             >
-                <Box style={style}>
+                <Box style={style} bgcolor={"background.default"} color={'text.primary'}>
                     <Typography variant='h6' color='gray' textAlign='center'>
                         Create Post
                     </Typography>
@@ -58,7 +57,7 @@ export default function Add() {
                         id="standard-multiline-static"
                         multiline
                         rows={4}
-                        defaultValue="What's on your mind?"
+                        placeholder="What's on your mind?"
                         variant="standard"
                     />
 
@@ -71,7 +70,7 @@ export default function Add() {
 
                     <ButtonGroup fullWidth variant="contained" aria-label="outlined button group">
                         <Button>Post</Button>
-                        <Button sx={{width:'100px'}}><DateRange /></Button>
+                        <Button sx={{ width: '100px' }}><DateRange /></Button>
                     </ButtonGroup>
 
                 </Box>
