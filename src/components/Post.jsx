@@ -8,7 +8,7 @@ export default function Post() {
                 <CardHeader
                     avatar={
                         <Avatar sx={{ bgcolor: 'red' }} aria-label="recipe">
-                            R
+                            J
                         </Avatar>
                     }
                     action={
@@ -16,14 +16,14 @@ export default function Post() {
                             <MoreVert />
                         </IconButton>
                     }
-                    title="Shrimp and Chorizo Paella"
+                    title="John Doe"
                     subheader="September 14, 2016"
                 />
                 <CardMedia
                     component="img"
                     width='100%'
                     height="auto"
-                    image="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                    image="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1948&q=80"
                     alt="Paella dish"
                 />
                 <CardContent>

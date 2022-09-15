@@ -8,64 +8,66 @@ import GroupIcon from '@mui/icons-material/Group';
 export default function Sidebar() {
   return (
     <Box p={2} flex={1} sx={{ display: { xs: 'none', sm: 'block' } }}>
-      <List>
-        <ListItemButton component='a' href='#home'>
-          <ListItemIcon>
-            <Home />
-          </ListItemIcon>
-          <ListItemText primary="Homepage" />
-        </ListItemButton>
+      <Box sx={{ position: 'fixed' }}>
+        <List>
+          <ListItemButton component='a' href='#home'>
+            <ListItemIcon>
+              <Home />
+            </ListItemIcon>
+            <ListItemText primary="Homepage" />
+          </ListItemButton>
 
-        <ListItemButton component='a' href='#home'>
-          <ListItemIcon>
-            <AssignmentIcon />
-          </ListItemIcon>
-          <ListItemText primary="Pages" />
-        </ListItemButton>
+          <ListItemButton component='a' href='#home'>
+            <ListItemIcon>
+              <AssignmentIcon />
+            </ListItemIcon>
+            <ListItemText primary="Pages" />
+          </ListItemButton>
 
-        <ListItemButton component='a' href='#home'>
-          <ListItemIcon>
-            <GroupIcon />
-          </ListItemIcon>
-          <ListItemText primary="Groups" />
-        </ListItemButton>
+          <ListItemButton component='a' href='#home'>
+            <ListItemIcon>
+              <GroupIcon />
+            </ListItemIcon>
+            <ListItemText primary="Groups" />
+          </ListItemButton>
 
-        <ListItemButton component='a' href='#home'>
-          <ListItemIcon>
-            <Home />
-          </ListItemIcon>
-          <ListItemText primary="Homepage" />
-        </ListItemButton>
+          <ListItemButton component='a' href='#home'>
+            <ListItemIcon>
+              <Home />
+            </ListItemIcon>
+            <ListItemText primary="Homepage" />
+          </ListItemButton>
 
-        <ListItemButton component='a' href='#home'>
-          <ListItemIcon>
-            <Home />
-          </ListItemIcon>
-          <ListItemText primary="Homepage" />
-        </ListItemButton>
+          <ListItemButton component='a' href='#home'>
+            <ListItemIcon>
+              <Home />
+            </ListItemIcon>
+            <ListItemText primary="Homepage" />
+          </ListItemButton>
 
-        <ListItemButton component='a' href='#home'>
-          <ListItemIcon>
-            <Home />
-          </ListItemIcon>
-          <ListItemText primary="Homepage" />
-        </ListItemButton>
+          <ListItemButton component='a' href='#home'>
+            <ListItemIcon>
+              <Home />
+            </ListItemIcon>
+            <ListItemText primary="Homepage" />
+          </ListItemButton>
 
-        <ListItemButton component='a' href='#home'>
-          <ListItemIcon>
-            <Home />
-          </ListItemIcon>
-          <ListItemText primary="Homepage" />
-        </ListItemButton>
+          <ListItemButton component='a' href='#home'>
+            <ListItemIcon>
+              <Home />
+            </ListItemIcon>
+            <ListItemText primary="Homepage" />
+          </ListItemButton>
 
-        <ListItemButton component='a' href='#home'>
-          <ListItemIcon>
-            <Home />
-          </ListItemIcon>
-          <ListItemText primary="Homepage" />
-        </ListItemButton>
+          <ListItemButton component='a' href='#home'>
+            <ListItemIcon>
+              <Home />
+            </ListItemIcon>
+            <ListItemText primary="Homepage" />
+          </ListItemButton>
 
-      </List>
+        </List>
+      </Box>
     </Box>
   )
 }
